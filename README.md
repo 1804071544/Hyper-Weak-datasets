@@ -41,8 +41,8 @@ F:\Hyper_Weak\
 +-- <dataset_name>\
     +-- images\
     |   +-- image.tif
-    |   +-- reflectance.tif
-    |   +-- radiance.tif
+    |   +-- reflectance.tif  (if have)
+    |   +-- radiance.tif (if have)
     +-- clean_labels\
     |   +-- labels.tif
     |   +-- label_mapping.json
@@ -138,6 +138,10 @@ By default, the script can be configured through `DATASET_LOADERS` and the corre
 The default incomplete-label configuration uses a fixed random seed of `42` and sampling rates of `0.01`, `0.05`, `0.10`, `0.20`, and `0.50`.
 
 ## Usage
+
+Download the generated dataset from Google Drive:
+
+- [Hyper-Weak-datasets on Google Drive](https://drive.google.com/file/d/1P7JNigzLbPo2SHq3ad0ZuYBspsKKlfS7/view?usp=drive_link)
 
 Clone this repository:
 
