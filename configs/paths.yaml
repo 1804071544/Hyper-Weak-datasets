@@ -1,0 +1,18 @@
+data:
+  dataset_root: E:\Hyperspectral_Dataset_Raw_Data
+  hyper_weak:
+    weak_label_names:
+      incomplete_labels:
+        - incomplete_labels_1percent
+        - incomplete_labels_5percent
+        - incomplete_labels_10percent
+        - incomplete_labels_20percent
+        - incomplete_labels_50percent
+      inaccurate_labels:
+        - inaccurate_labels
+        - symmetric_noise_labels
+        - asymmetric_noise_labels
+        - boundary_noise_labels
+      inexact_labels:
+        - point_labels
+        - scribble_labels
