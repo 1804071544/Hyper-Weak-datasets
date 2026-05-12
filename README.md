@@ -60,7 +60,15 @@ Follow these steps to regenerate the weak labels.
 
 **Step 1: Download and extract the original datasets**
 
-Download the original fully supervised source datasets from [HyperWeak-Urban on Zenodo](https://zenodo.org/records/20125456), then extract them into a dataset root directory.
+Download the original fully supervised source datasets from [HyperWeak-Urban on Zenodo](https://zenodo.org/records/20125456). In most cases, `dataset_root` should be the folder path created after downloading and extracting `Hyperspectral_Dataset_Raw_Data.rar`.
+
+For example, if the archive is extracted to:
+
+```text
+E:\Hyperspectral_Dataset_Raw_Data
+```
+
+then set `dataset_root` to `E:\Hyperspectral_Dataset_Raw_Data`.
 
 The expected raw-data layout is:
 
@@ -138,7 +146,7 @@ Edit these dictionaries before running `process_all.py` if you need a different 
 
 **Step 5: Set the dataset root and run generation**
 
-`dataset_root` is the directory that contains `Raw_Data/` and receives the generated weak-supervision outputs.
+`dataset_root` is the directory that contains `Raw_Data/` and receives the generated weak-supervision outputs. It is generally the extracted folder path of `Hyperspectral_Dataset_Raw_Data.rar`.
 
 You can set it in either of two ways.
 
