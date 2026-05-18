@@ -6,6 +6,10 @@ Dataset download: [HyperWeak-Urban on Google Drive](https://drive.google.com/fil
 
 Raw and generated dataset archive: [HyperWeak-Urban on Zenodo](https://zenodo.org/records/20125456)
 
+Dataset example:
+
+<img src="assets/images/Pavia_University_labels.png" alt="Pavia University label example" width="520">
+
 ## Overview
 
 The generation pipeline converts clean pixel-level ground-truth labels into three weak-supervision settings:
